@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler Koch | Professional Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --bg-color: #f4f7f6;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.1rem;
+            color: #bdc3c7;
+        }
+        .container {
+            max-width: 900px;
+            margin: -2rem auto 2rem auto;
+            padding: 3rem;
+            background: white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-radius: 8px;
+        }
+        section {
+            margin-bottom: 2.5rem;
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+        .entry {
+            margin-bottom: 1.8rem;
+        }
+        .entry-title {
+            font-weight: bold;
+            color: var(--secondary-color);
+            font-size: 1.15rem;
+        }
+        .date-location {
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+        ul {
+            margin-top: 0.5rem;
+            padding-left: 1.5rem;
+        }
+        li {
+            margin-bottom: 0.4rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .skill-category {
+            background: var(--bg-color);
+            padding: 1.2rem;
+            border-radius: 6px;
+            border-left: 4px solid var(--accent-color);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 0;
+                padding: 1.5rem;
+                border-radius: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tyler Koch</h1>
+        <p>(563) 200-2094 | tylego59@gmail.com | LinkedIn: tyler-koch-412748187</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="education">
+            <h2>Education</h2>
+            <div class="entry">
+                <div class="entry-title">Brigham Young University-Idaho</div>
+                <div class="date-location">Winter 2025 - Spring 2025</div>
+                <ul>
+                    <li>4.0 GPA.</li>
+                    <li>Performed in the BYU-I Theatre production of Cinderella.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <strong>Technical Skills</strong><br>
+                    Java, Python, C++, Digital Marketing, Social Media Content Creation & Analytics.
+                </div>
+                <div class="skill-category">
+                    <strong>Languages</strong><br>
+                    Bilingual in Spanish and English.
+                </div>
+                <div class="skill-category">
+                    <strong>Soft Skills</strong><br>
+                    Exceptional communication, leadership, detail-oriented, organized, self-motivated.
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Technical Projects</h2>
+            <div class="entry">
+                <div class="entry-title">Game Development: 2D Godot Character</div>
+                <ul>
+                    <li>Developed a 2D top-down character controller within the Godot game engine.</li>
+                    <li>Implemented core logic and movement mechanics using Python via the Python4Godot extension.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="entry">
+                <div class="entry-title">Seasonal Support Driver | UPS</div>
+                <div class="date-location">Davenport, IA | Nov 2024 - Dec 2024</div>
+                <ul>
+                    <li>Efficiently delivered packages during the peak holiday season.</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="entry-title">Morning Stocker | Menards</div>
+                <div class="date-location">Davenport, IA</div>
+                <ul>
+                    <li>Stocked heavy building materials such as windows, doors, plywood, and trim during early morning shifts.</li>
+                    <li>Assisted customers with product inquiries and guided them to appropriate materials.</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="entry-title">Team Member | Kwik Trip</div>
+                <div class="date-location">Bettendorf, IA | 2020 - 2022</div>
+                <ul>
+                    <li>Provided excellent customer service, resolving inquiries and accurately processing all sales transactions.</li>
+                    <li>Maintained stringent sanitation and hygiene standards for all kitchen equipment and storage areas.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="volunteer-leadership">
+            <h2>Volunteer & Leadership Experience</h2>
+            <div class="entry">
+                <div class="entry-title">Full-time Volunteer / Social Media Leader</div>
+                <div class="date-location">Mission Argentina Buenos Aires South | Oct 2022 - Oct 2024</div>
+                <ul>
+                    <li>Dedicated two years to full-time volunteer service for the Church of Jesus Christ of Latter-Day Saints.</li>
+                    <li>Served as Social Media Leader for 10 months, utilizing technology to increase outreach and connect with prospective individuals.</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="entry-title">Eagle Scout | Boy Scouts of America</div>
+                <ul>
+                    <li>Attained the rank of Eagle Scout, demonstrating leadership, perseverance, and project management skills.</li>
+                    <li>Eagle Project: Cleaned tombstones and uploaded photos of graves to the "Find a Grave" website.</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="entry-title">Assistant Stage Manager | Bettendorf Middle School Theatre</div>
+                <ul>
+                    <li>Stage-managed the department's improv show and taught improvisational skills to middle school students.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2>Awards & Achievements</h2>
+            <ul>
+                <li>Recipient of the Director’s Award of Excellence for high school theatre.</li>
+                <li>National Qualifier for Speech and Debate (Humorous Interpretive Speaking).</li>
+                <li>Awarded Best Male Vocalist in a varsity Show Choir competition.</li>
+                <li>Selected twice for the highly competitive Iowa All-State Honor Choir.</li>
+            </ul>
+        </section>
+        
+    </div>
+</body>
+</html>
